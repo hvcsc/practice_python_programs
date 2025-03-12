@@ -15,4 +15,6 @@ for i in range(9):
     num2 += float(input(f"Enter number {i + 2}: "))
 
 #equation
+result = num1 - num2
+
 #print output
