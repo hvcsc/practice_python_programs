@@ -11,5 +11,6 @@ num = 1
 #set while loop
 while num <= 100:
     #print output
-
+    print(num)
     #increment of 2 (ex. num = 1 + increment of 2 = 3 (odd number))
+    num += 2
