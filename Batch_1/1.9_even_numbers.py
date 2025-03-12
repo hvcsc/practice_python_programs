@@ -6,4 +6,6 @@
 numbers starting from 0 to 100. (Use for loop)"""
 
 #set for loop
-#print output
+for i in range(0, 101, 2):
+    # print output
+    print(i)
