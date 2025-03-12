@@ -11,3 +11,7 @@ num2 = float(input("Enter the second number: "))
 
 #check which is bigger
 #print output
+if num1 > num2:
+    print(f"\n{num1} is bigger than {num2}")
+elif num2 > num1:
+    print(f"\n{num2} is bigger than {num1}")
