@@ -15,3 +15,4 @@ for i in range(10):
         count += 1
 
 #print output
+print(f"\nThere is/are {count} odd number/s.")
