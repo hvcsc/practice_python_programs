@@ -6,5 +6,8 @@
 Print the sum of the two numbers."""
 
 #ask user for numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
 #sum equation
 #print sum
