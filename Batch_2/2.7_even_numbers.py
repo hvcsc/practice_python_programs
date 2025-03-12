@@ -6,6 +6,9 @@
 Print how many are even numbers."""
 
 #ask user for numbers
+for i in range(10):
+    num = float(input(f"Enter number {i + 1}: "))
+
 #check for even numbers
 #initialize and count how many even numbers
 #print output
