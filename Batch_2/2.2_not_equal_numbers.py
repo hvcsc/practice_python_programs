@@ -6,5 +6,8 @@
 Print "Not Equal" when the numbers are not the same."""
 
 #ask user for numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
 #check if not equal
 #print output
