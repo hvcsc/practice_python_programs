@@ -6,5 +6,8 @@
 Print the result when the first number is raised to the second number."""
 
 #ask user for numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
 #power equation
 #print output
