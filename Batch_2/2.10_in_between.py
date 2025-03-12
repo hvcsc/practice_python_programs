@@ -6,4 +6,7 @@
 Print all the numbers between the two numbers."""
 
 #input numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
 #conditions and print
