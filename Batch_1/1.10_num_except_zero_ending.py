@@ -6,4 +6,7 @@
 starting from 0 to 100 except numbers ending in zero."""
 
 #set loop and condition
-#print output
+for i in range(0, 101):
+    if i % 10 != 0:
+        #print output
+        print(i)
