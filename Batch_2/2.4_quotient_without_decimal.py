@@ -6,5 +6,8 @@
 Print the quotient of the two numbers without the decimal point"""
 
 #ask user for numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
 #division equation
 #print quotient
