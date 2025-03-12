@@ -8,4 +8,8 @@ Print the sum of all the numbers."""
 
 #ask user for numbers
 #add all numbers
+summation = 0
+for i in range(10):
+    summation += float(input(f"Enter number {i + 1}: "))
+
 #print summation
