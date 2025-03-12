@@ -18,3 +18,4 @@ for i in range(9):
 result = num1 - num2
 
 #print output
+print(f"\nResult: {result: .2f}")
