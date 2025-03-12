@@ -6,5 +6,8 @@
 Print the difference of the two numbers."""
 
 #ask users for numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
 #equation of difference
 #print difference
