@@ -13,3 +13,4 @@ for i in range(10):
     summation += float(input(f"Enter number {i + 1}: "))
 
 #print summation
+print(f"\nSummation of all given numbers:{summation: .2f}")
