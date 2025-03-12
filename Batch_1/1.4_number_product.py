@@ -13,3 +13,4 @@ num2 = float(input("Enter the second number: "))
 prod = num1 * num2
 
 #print product
+print(f"\nProduct:{prod: .2f}")
