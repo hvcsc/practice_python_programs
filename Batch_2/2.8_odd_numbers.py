@@ -6,6 +6,10 @@
 odd numbers starting from 0 to 100. (Use while loop)"""
 
 #initialize
+num = 1
+
 #set while loop
-#print output
-#increment of 2 (ex. num = 1 + increment of 2 = 3 (odd number))
+while num <= 100:
+    #print output
+
+    #increment of 2 (ex. num = 1 + increment of 2 = 3 (odd number))
