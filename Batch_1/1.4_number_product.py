@@ -6,5 +6,8 @@
 Print the product of the two numbers."""
 
 #ask user for numbers
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
 #product equation
 #print product
