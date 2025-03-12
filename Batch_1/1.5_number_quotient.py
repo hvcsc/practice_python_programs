@@ -22,3 +22,4 @@ num2 = zero("Enter the second number: ")
 quotient = num1 / num2
 
 #print quotient
+print(f"\nQuotient:{quotient: .2f}")
