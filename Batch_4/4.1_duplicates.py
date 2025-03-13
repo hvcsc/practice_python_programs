@@ -3,8 +3,28 @@ Display all numbers that have duplicate."""
 
 #define function
 #create empty lists
-#ask for numbers then add to list
-#check duplicates and add to lost
-#print output
+def duplicates():
+    numbers = []
+    dups = []
+
+    #ask for numbers then add to list
+    print("Enter 10 numbers:")
+    for i in range(10):
+        num = int(input(f"\nEnter number {i + 1}: "))
+        numbers.append(num)
+
+    #check duplicates and add to lost
+    for num in numbers:
+        count = numbers.count(num)
+        if count > 1:
+            if num not in dups:
+                dups.append(num)
+
+    #print output
+    if dups:
+        print(f"\nNumber/s with duplicates: {dups}")
+    else:
+        print("\nNo duplicates.")
+
 #introduce the program
 #call function
