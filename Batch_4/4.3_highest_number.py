@@ -24,6 +24,9 @@ def highest_num():
         print("\nNo numerical value entered.")
     else:
         print(f"\nHighest number: {highest}")
-        
+
 #introduce the program
+print("This program takes numbers until a non-number is entered, then shows the highest number.")
+
 #call function
+highest_num()
