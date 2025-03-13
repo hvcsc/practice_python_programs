@@ -20,6 +20,10 @@ def descending():
         print(f"\nNumbers in descending order: {numbers}")
     else:
         print("No numerical value entered.")
-        
+
 #introduce program
+print("This program continuously accepts numerical inputs until a "
+      "non-numerical value is entered, then displays the numbers in descending order.")
+
 #call function
+descending()
