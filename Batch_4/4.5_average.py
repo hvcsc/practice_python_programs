@@ -26,4 +26,8 @@ def calc_ave():
         print("No numerical value entered.")
 
 #introduce program
+print("This program continuously accepts numerical inputs until a "
+      "non-numerical value is entered, then calculates and displays the average.")
+
 #call function
+calc_ave()
