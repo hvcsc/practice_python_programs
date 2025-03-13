@@ -22,4 +22,8 @@ def ascending():
         print("No numerical value entered.")
 
 #introduce program
+print("This program continuously accepts numerical inputs until a "
+      "non-numerical value is entered, then displays the numbers in ascending order.")
+
 #call function
+ascending()
