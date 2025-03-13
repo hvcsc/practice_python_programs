@@ -3,7 +3,23 @@ from lowest to highest. Clue: sort() function"""
 
 #define function
 #create an empty list
-#ask for numbers then add to list
-#sort and print numbers
+def ascending():
+    numbers = []
+
+    #ask for numbers then add to list
+    while True:
+        try:
+            num = int(input("Enter a number: "))
+            numbers.append(num)
+        except ValueError:
+            break
+
+    #sort and print numbers
+    if numbers:
+        numbers.sort()
+        print(f"\nNumbers in ascending order: {numbers}")
+    else:
+        print("No numerical value entered.")
+
 #introduce program
 #call function
