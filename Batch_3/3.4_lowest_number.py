@@ -19,5 +19,14 @@ def lowest_num():
         except ValueError:
             break
 
-#print output
+    #print output
+    if lowest is None:
+        print("\nNo numerical value entered.")
+    else:
+        print(f"\nLowest number: {lowest}")
+
+#introduce the program
+print("This program takes numbers until a non-number is entered, then shows the lowest number.")
+
 #call function
+lowest_num()
