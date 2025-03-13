@@ -14,11 +14,15 @@ def unique():
         user_input.append(num)
 
 #create an empty list for unique numbers
-    unique = []
+    uniques = []
 
 #count number occurrences then add to the unique list
     for num in user_input:
         if user_input.count(num) == 1: #occurred once
-            unique.append(num)
+            uniques.append(num)
 
 #print unique numbers
+    print(f"\nNo duplicates: {uniques}")
+
+#call def
+unique()
