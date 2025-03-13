@@ -31,4 +31,8 @@ def most_dups():
     print(f"Most duplicated number/s: {most_dupli}")
 
 #introduce program
+print("This program continuously accepts numerical inputs until a "
+      "non-numerical value is entered, then displays the number(s) with the most duplicates.")
+
 #call function
+most_dups()
