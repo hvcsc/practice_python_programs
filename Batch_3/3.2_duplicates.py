@@ -9,9 +9,16 @@ def first_unique():
 
 #ask for numbers then add to list
     for i in range(10):
-        num = int(input(f"Enter number {i + 10}: "))
+        num = int(input(f"Enter number {i + 1}: "))
         user_input.append(num)
 
 #add occurrence to list
+    for num in user_input:
+        if num not in display_num:
+            display_num.append(num)
+
 #print output
+    print(f"\nNumber list: {display_num}")
+
 #call function
+first_unique()
