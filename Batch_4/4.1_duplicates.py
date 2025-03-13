@@ -27,4 +27,8 @@ def duplicates():
         print("\nNo duplicates.")
 
 #introduce the program
+print("This program asks the user to input numbers, "
+      "then identifies and displays any numbers that appear more than once.")
+
 #call function
+duplicates()
